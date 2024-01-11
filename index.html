@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caluclator</title>
+</head>
+
+<body>
+    <div id="calc">
+        <input type="text" id="display" readonly>
+        <div id="btn_con">
+            <button class="btn"
+            onclick="
+            currectVal = '';
+            document.querySelector('#display').value = currectVal;
+           "
+            >C</button>
+            <button class="btn"
+            onclick="
+             currectVal = currectVal+'1';
+             document.querySelector('#display').value=currectVal;
+            "
+            >1</button>
+            <button class="btn"
+            onclick="
+            currectVal = currectVal+'2'
+             document.querySelector('#display').value=currectVal;
+            "
+            >2</button>
+            <button class="btn"
+            onclick="
+            currectVal=currectVal+'+'
+            document.querySelector('#display').value=currectVal;
+            
+            "
+            >+</button>
+            <button class="btn"
+            onclick="
+            currectVal = currectVal+'3'
+            document.querySelector('#display').value=currectVal;
+            
+            "
+            >3</button>
+            <button class="btn"
+            onclick="
+            currectVal = currectVal+'4'
+            document.querySelector('#display').value=currectVal;
+            
+            "
+            >4</button>
+            <button class="btn"
+            onclick="
+            currectVal = currectVal+'-'
+            document.querySelector('#display').value=currectVal;
+            
+            "
+            >-</button>
+            <button class="btn"
+            onclick="
+            currectVal = currectVal+'5'
+            document.querySelector('#display').value=currectVal;
+            
+            "
+            >5</button>
+            <button class="btn"
+            onclick="
+            currectVal = currectVal+'*'
+            document.querySelector('#display').value=currectVal;
+            "
+            >X</button>
+            <button class="btn"
+            onclick="
+            currectVal = currectVal+'7'
+            document.querySelector('#display').value=currectVal;
+            "
+            
+            >7</button>
+            <button class="btn"
+            onclick="
+            currectVal = currectVal+'8'
+            document.querySelector('#display').value=currectVal;
+            "
+            >8</button>
+            <button class="btn"
+            onclick="
+            currectVal = currectVal+'/'
+            document.querySelector('#display').value=currectVal;
+            "
+            >/</button>
+            <button class="btn"
+            onclick="
+            currectVal = eval(currectVal);
+            document.querySelector('#display').value=currectVal;
+            "
+            >=</button>
+            <button class="btn"
+            onclick="
+            currectVal = currectVal+'9'
+            document.querySelector('#display').value=currectVal;
+            "
+            >9</button>
+            <button class="btn"
+            onclick="
+            currectVal = currectVal+'0'
+            document.querySelector('#display').value=currectVal;
+            "
+            >0</button>
+            <button class="btn"
+            onclick="
+            currectVal = currectVal+'.'
+            document.querySelector('#display').value=currectVal;
+            "
+            >.</button>
+        </div>
+    </div>
+    
+<script >
+    let currectVal = '';
+    document.querySelector('#display').value=currectVal;
+</script>
+</body>
+</html>
